@@ -637,14 +637,25 @@
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dmKA4FRjEeS3yNJmGL6ZLA" name="créer un livre"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dmKA4FRjEeS3yNJmGL6ZLA" name="créer un livre">
+        <ownedComment xmi:id="_4wt-oFRsEeSJnsVktGoDlQ" annotatedElement="_dmKA4FRjEeS3yNJmGL6ZLA">
+          <body>&lt;p>&lt;b>Fiche detaillee &lt;/b>: « creer un livre »&lt;/p>&lt;p>&lt;b>Acteur&lt;/b> : l'utilisateur&lt;/p>&lt;p>&lt;b>Description&lt;/b> : l'utilisateur cree un nouveau livre en fixant son titre&lt;/p>&lt;p>&lt;b>Precondition&lt;/b> : N/A&lt;/p>&lt;p>&lt;b>Enchainement nominale &lt;/b>:&lt;/p>&lt;blockquote>&lt;p>1. l'utilisateur fixe le titre du livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>2. l'utilisateur construit une section&lt;/p>&lt;/blockquote>&lt;p>&lt;b>Exception :&lt;/b> N/A&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_fe1ZwFRjEeS3yNJmGL6ZLA" name="charger livre">
         <ownedComment xmi:id="_26gLQFRpEeSJnsVktGoDlQ" annotatedElement="_fe1ZwFRjEeS3yNJmGL6ZLA">
           <body>&lt;p>&lt;b>Fiche détaillé&lt;/b>: &quot; charger livre&quot;&lt;/p>&lt;p>&lt;b>Auteur&lt;/b>: Utilisateur&lt;/p>&lt;p>&lt;b>Description&lt;/b>: L'utilisateur peut charger un livre existant grâce à cette option&lt;/p>&lt;p>&lt;b>Précondition&lt;/b>: N/A&lt;/p>&lt;p>&lt;b>Enchainement nominal&lt;/b>:&lt;/p>&lt;blockquote>&lt;p>1. L'utilisateur charge un livre s'il existe&lt;/p>&lt;/blockquote>&lt;p>&lt;b>Post condition&lt;/b>: N/A&lt;/p>&lt;p>&lt;b>Exception:&lt;/b> Le systèmene reconnait pas le format du livre chargé&lt;/p></body>
         </ownedComment>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_hQgywFRjEeS3yNJmGL6ZLA" name="sauvegarder"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_hQgywFRjEeS3yNJmGL6ZLA" name="sauvegarder">
+        <ownedComment xmi:id="_ikLrAFRsEeSJnsVktGoDlQ" annotatedElement="_hQgywFRjEeS3yNJmGL6ZLA">
+          <body>&lt;p>&lt;b>Fiches détaillées&lt;/b>&lt;/p>&lt;p>&lt;b>UC03&lt;/b> : Sauvegarder un livre&lt;/p>&lt;p>&lt;b>Description &lt;/b>: Décrire les étapes permettant au auteur de sauvegarder le livre&lt;/p>&lt;p>&lt;b>Acteur&lt;/b> : Auteur&lt;/p>&lt;p>&lt;b>Hypothèse&lt;/b>: Le logiciel est démarrée&lt;/p>&lt;p>&lt;b>Préconditions&lt;/b> : aucune&lt;/p>&lt;p>&lt;b>Scénario nominal&lt;/b> :&lt;/p>&lt;blockquote>&lt;p>1. L'auteur crée ou modifie le livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>2. L'auteur choisit l'option « sauvegarder le livre »&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>3. Le système affiche une fenêtre qui permet au auteur à entrer le titre du livre, le localisation du livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>4. L'auteur choisit le localisation ou il veut sauvegarder le livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>5. L'auteur saisit le titre du livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>6. L'auteur choisit « sauvegarder »&lt;/p>&lt;/blockquote>&lt;p>&lt;b>Post­conditions&lt;/b> :&lt;/p>&lt;blockquote>&lt;p>Le système a enregistré le livre&lt;/p>&lt;/blockquote>&lt;p>&lt;b>Alternatives&lt;/b> :&lt;/p>&lt;blockquote>&lt;p>1. Sauvegarde après avoir créer un nouveau livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>2. Sauvegarde après avoir modifié un livre existant&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>Les étapes 3, 4, 5 et 6 du scénario nominal ne sont pas exécutées&lt;/p>&lt;/blockquote>&lt;p>&lt;b>Exceptions :&lt;/b>&lt;/p>&lt;blockquote>&lt;p>1. E1 : L'entrée invalide du titre du livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>Il existe déjà un autre livre avec le même titre et même localisation. Le système notifie&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>l'utilisateur et demande au utilisateur de saisir un autre titre pour le livre&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>2. E2 : Annulation du sauvegarde&lt;/p>&lt;/blockquote>&lt;p>L'auteur peut annuler le sauvegarde aux points 3, 4 et 5 de la scénario nominal&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_j0r_sFRjEeS3yNJmGL6ZLA" name="construire section">
+        <ownedComment xmi:id="_TwkFsFRsEeSJnsVktGoDlQ" annotatedElement="_j0r_sFRjEeS3yNJmGL6ZLA">
+          <body>&lt;p >&lt;b>Fiche détaillé&lt;/b>: &quot; Construire section&quot;&lt;/p>&lt;p >&lt;b>Auteur&lt;/b>: Utilisateur&lt;/p>&lt;p >&lt;b>Description&lt;/b>: Un utilisateur crée une section&lt;/p>&lt;p >&lt;b>Précondition&lt;/b>: La section existe déjà&lt;/p>&lt;p >&lt;b>Enchainement nominal&lt;/b>:&lt;/p>&lt;blockquote >&lt;ol >&lt;li >&lt;p >Le système propose de remplacer un enchaînement&lt;/p>&lt;/li>&lt;li >&lt;p >L'utilisateur valide la création de la section&lt;/p>&lt;/li>&lt;li >&lt;p >Le système affiche une confirmation&lt;/p>&lt;/li>&lt;li >&lt;p >µL'ultilisateur valide&lt;/p>&lt;/li>&lt;/ol>&lt;/blockquote>&lt;p >&lt;b>Post condition&lt;/b>: Une section à été ajouté au livre&lt;/p>&lt;p>&lt;b>Alternatives: &lt;/b>L'utilisateur renseigne un enchaînement ,appel UC &amp;lt;&amp;lt; génerer enchainement &amp;gt;&amp;gt; &lt;/p>&lt;p >&lt;b>Exception:&lt;/b> N/A&lt;/p></body>
+        </ownedComment>
         <extensionPoint xmi:id="_h_BzsFRlEeS3yNJmGL6ZLA" name="ExtensionPoint1"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_pumZYFRjEeS3yNJmGL6ZLA" name="imprimer"/>
@@ -663,7 +674,11 @@
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_bUX5kFRlEeS3yNJmGL6ZLA" name="définir un nouvel enchaînement"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_9NsnoFRpEeSJnsVktGoDlQ" name="Supprimer Section"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_9NsnoFRpEeSJnsVktGoDlQ" name="Supprimer Section">
+        <ownedComment xmi:id="_50gBwFRqEeSJnsVktGoDlQ" annotatedElement="_9NsnoFRpEeSJnsVktGoDlQ">
+          <body>&lt;p >&lt;b>Fiche détaillé&lt;/b>: &quot; Supprimer Section&quot;&lt;/p>&lt;p >&lt;b>Auteur&lt;/b>: Utilisateur&lt;/p>&lt;p >&lt;b>Description&lt;/b>: L'utilisateur peut supprimer une section existante&lt;/p>&lt;p >&lt;b>Précondition&lt;/b>: La section existe déjà&lt;/p>&lt;p >&lt;b>Enchainement nominal&lt;/b>:&lt;/p>&lt;blockquote >&lt;ol>&lt;li>&lt;p>L'utilisateur supprime une section&lt;/p>&lt;/li>&lt;li>&lt;p>Le système vérifie les dépendances entre les sections&lt;/p>&lt;/li>&lt;li>&lt;p>Le système prévient l'utilisateur de la suppression&lt;/p>&lt;/li>&lt;li>&lt;p>Le système supprime les affectations des conditions concernant la séction supprimé&lt;/p>&lt;/li>&lt;/ol>&lt;/blockquote>&lt;p >&lt;b>Post condition&lt;/b>: N/A&lt;/p>&lt;p >&lt;b>Exception:&lt;/b> Le système ne peut pas supprimer la section &lt;/p></body>
+        </ownedComment>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Duzy8FRkEeS3yNJmGL6ZLA" memberEnd="_Du22QFRkEeS3yNJmGL6ZLA _Du8V0FRkEeS3yNJmGL6ZLA" navigableOwnedEnd="_Du22QFRkEeS3yNJmGL6ZLA _Du8V0FRkEeS3yNJmGL6ZLA">
       <ownedEnd xmi:id="_Du22QFRkEeS3yNJmGL6ZLA" name="créer un livre" visibility="private" type="_dmKA4FRjEeS3yNJmGL6ZLA" association="_Duzy8FRkEeS3yNJmGL6ZLA">
@@ -848,4 +863,8 @@
     </profileApplication>
   </uml:Package>
   <Default:Documentation xmi:id="_2-TtMFRpEeSJnsVktGoDlQ" base_Comment="_26gLQFRpEeSJnsVktGoDlQ"/>
+  <Default:Documentation xmi:id="_50ieAFRqEeSJnsVktGoDlQ" base_Comment="_50gBwFRqEeSJnsVktGoDlQ"/>
+  <Default:Documentation xmi:id="_Twmh8FRsEeSJnsVktGoDlQ" base_Comment="_TwkFsFRsEeSJnsVktGoDlQ"/>
+  <Default:Documentation xmi:id="_ikOHQFRsEeSJnsVktGoDlQ" base_Comment="_ikLrAFRsEeSJnsVktGoDlQ"/>
+  <Default:Documentation xmi:id="_4wwa4FRsEeSJnsVktGoDlQ" base_Comment="_4wt-oFRsEeSJnsVktGoDlQ"/>
 </xmi:XMI>
